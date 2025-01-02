@@ -4,10 +4,10 @@ const GradeResult = ({ cgpa, onReset }) => {
     return (
         <>
         <div className="max-w-md mx-auto p-8 bg-white rounded-lg outline-dashed outline-1 outline-primary shadow-lg">
-                <h2 className="text-3xl font-bold text-center text-[#7d7bff] mb-4">Prediction Score :</h2>
+                <h2 className="text-3xl font-bold text-center text-[#7d7bff] mb-4">Prediction SGPA :</h2>
                 <div className="p-6 bg-[#EBEAFF] rounded-lg border border-dotted border-[#6461ff]">
                     <p className="text-center text-2xl font-bold text-[#6461ff]">
-                    CGPA: {cgpa}
+                    SGPA: {cgpa}
                 </p>
             </div>
             <button
