@@ -11,7 +11,7 @@ import { useUser, UserButton } from "@clerk/clerk-react"  // Import UserButton f
 function Header() {
 
     return (
-        <header className="py-8 xl:py-12 text-black">
+        <header className="pb-8 pt-4 xl:py-12 text-black">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <Link href="/">
