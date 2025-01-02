@@ -1,4 +1,4 @@
-const MONGODB_URL = process.env.DATABASE_URL;
+const MONGODB_URL = process.env.DATABASE_URL || "";
 
 import mongoose, { Mongoose } from "mongoose";
 
