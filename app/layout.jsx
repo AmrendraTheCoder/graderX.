@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata = {
   title: "GraderX",
-  description: "Created by Amrendra Vikram Singh",
+  description: "Predict your SGPA with GraderX",
 };
 
 export default function RootLayout({ children }) {
